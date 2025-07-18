@@ -1,0 +1,40 @@
+  
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Jobs — ZidioConnect</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Explore Job Listings</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/career-advice}">Career Advice</a></li>
+                <li><a th:href="@{/highlights}">Highlights</a></li>
+                <li><a th:href="@{/learn}">Learn</a></li>
+                <li><a th:href="@{/preparation}">Preparation</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="main-section">
+    <div class="job-search">
+      <div class="job-tabs">
+        <span class="active">All Jobs</span>
+        <span>Remote</span>
+        <span>Internships</span>
+        <span>New <span class="new">3</span></span>
+      </div>
+      <!-- Later you can load job cards dynamically -->
+      <p>Jobs will appear here. Connect with the backend to populate listings.</p>
+    </div>
+  </section>
+</body>
+<script src="/js/main.js"></script>
+</html>

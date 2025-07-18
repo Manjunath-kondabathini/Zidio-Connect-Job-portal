@@ -1,0 +1,125 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f4f6f9;
+  color: #333;
+}
+
+.navbar {
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  padding: 15px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #222;
+}
+
+.main-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.job-search {
+  max-width: 600px;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.search-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.search-btn {
+  padding: 10px 20px;
+  background: #4facfe;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #00f2fe;
+}
+
+.trending {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.advanced-search {
+  color: #007bff;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profile-card {
+  width: 300px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.profile-score span {
+  font-size: 24px;
+  color: #4facfe;
+}
+
+.pending-actions, .job-alerts, .recommended-jobs {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.pending-badge, .rec-badge {
+  background: #ff4757;
+  color: white;
+  padding: 3px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.alert-btn, .view-jobs-btn {
+  margin-top: 5px;
+  padding: 5px 10px;
+  background: #00f2fe;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

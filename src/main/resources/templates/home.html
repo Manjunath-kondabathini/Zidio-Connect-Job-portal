@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	
+    <meta charset="UTF-8">
+    <title>ZidioConnect — Home</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+	
+	
+	<nav class="navbar">
+	  <ul>
+	    <li><a th:href="@{/}">Home</a></li>
+	    <li><a th:href="@{/career-advice}">Career Advice</a></li>
+	    <li><a th:href="@{/highlights}">Highlights</a></li>
+	    <li><a th:href="@{/jobs}">Jobs</a></li>
+	    <li><a th:href="@{/learn}">Learn</a></li>
+	    <li><a th:href="@{/preparation}">Preparation</a></li>
+	  </ul>
+	</nav>
+    <header>
+        <h1>Welcome to ZidioConnect</h1>
+        <nav>
+            <a href="/learn">Learn</a>
+            <a href="/career-advice">Career Advice</a>
+            <a href="/highlights">Highlights</a>
+            <a href="/preparation">Preparation</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Search for Jobs</h2>
+        <input type="text" placeholder="Search by role, skill, company..." />
+        <button>Search</button>
+
+        <section>
+            <h3>Trending Roles</h3>
+            <ul>
+                <li>Java Developer</li>
+                <li>Data Analyst</li>
+                <li>AWS Cloud Engineer</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 JobSpot — Developed by Manjunath Kondabathini</p>
+    </footer>
+</body>
+</html>

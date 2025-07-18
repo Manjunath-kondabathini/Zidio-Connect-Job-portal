@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<link rel="stylesheet" href="/css/style.css">
+    <title>Career Advice — JobSpot</title>
+
+</head>
+<body>
+	
+	<nav class="navbar">
+	  <ul>
+	    <li><a th:href="@{/}">Home</a></li>
+	    <li><a th:href="@{/career-advice}">Career Advice</a></li>
+	    <li><a th:href="@{/highlights}">Highlights</a></li>
+	    <li><a th:href="@{/jobs}">Jobs</a></li>
+	    <li><a th:href="@{/learn}">Learn</a></li>
+	    <li><a th:href="@{/preparation}">Preparation</a></li>
+	  </ul>
+	</nav>
+    <header><h1>Career Advice Corner</h1></header>
+    <main>
+        <ul>
+            <li>How to write a standout resume</li>
+            <li>Behavioral interview techniques</li>
+            <li>Choosing the right tech stack</li>
+        </ul>
+        <a href="/">Back to Home</a>
+    </main>
+</body>
+</html>

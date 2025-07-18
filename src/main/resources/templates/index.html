@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	
+    <meta charset="UTF-8">
+    <title>ZidioConnect — Home</title>
+    <link rel="stylesheet" href="/css/style.css"> <!-- Optional external CSS -->
+</head>
+<body>
+	
+		
+	<nav class="navbar">
+	  <ul>
+	    <li><a th:href="@{/}">Home</a></li>
+	    <li><a th:href="@{/career-advice}">Career Advice</a></li>
+	    <li><a th:href="@{/highlights}">Highlights</a></li>
+	    <li><a th:href="@{/jobs}">Jobs</a></li>
+	    <li><a th:href="@{/learn}">Learn</a></li>
+	    <li><a th:href="@{/preparation}">Preperation</a></li>
+	  </ul>
+	</nav>
+    <section class="main-section">
+        <div class="job-search">
+            <h2>Welcome to ZidioConnect</h2>
+            <p>Your trusted gateway to career excellence.</p>
+            <div class="search-bar">
+                <input type="text" placeholder="Search by role, skill, company..." />
+                <button class="search-btn">Search</button>
+            </div>
+            <div class="trending">
+                <b>Trending:</b> Java Developer, Data Analyst, AWS Engineer
+                <span class="advanced-search">Advanced Search</span>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <div class="profile-header">
+                <span>Career Progress</span>
+                <div class="profile-score"><span>88</span>/100</div>
+            </div>
+            <div class="pending-actions">
+                <span class="pending-badge">2</span> Pending Applications
+                <a href="#">View</a>
+            </div>
+            <div class="job-alerts">
+                Job Alerts
+                <button class="alert-btn">Manage Alerts</button>
+            </div>
+            <div class="recommended-jobs">
+                <span class="rec-badge">AI</span>
+                <button class="view-jobs-btn">Recommended Jobs</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/main.js"></script> <!-- Optional external JS -->
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	
+    <title>Learn — JobSpot</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+	
+	<nav class="navbar">
+	  <ul>
+	    <li><a th:href="@{/}">Home</a></li>
+	    <li><a th:href="@{/career-advice}">Career Advice</a></li>
+	    <li><a th:href="@{/highlights}">Highlights</a></li>
+	    <li><a th:href="@{/jobs}">Jobs</a></li>
+	    <li><a th:href="@{/learn}">Learn</a></li>
+	    <li><a th:href="@{/preparation}">Preparation</a></li>
+	  </ul>
+	</nav>
+    <header><h1>Learning Resources</h1></header>
+    <main>
+        <ul>
+            <li><a href="#">Spring Boot Crash Course</a></li>
+            <li><a href="#">SQL for Beginners</a></li>
+            <li><a href="#">Postman API Testing</a></li>
+        </ul>
+        <a href="/">Back to Home</a>
+    </main>
+</body>
+</html>
